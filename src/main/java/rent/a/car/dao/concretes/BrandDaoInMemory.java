@@ -1,11 +1,13 @@
 package rent.a.car.dao.concretes;
 
+import org.springframework.stereotype.Repository;
 import rent.a.car.dao.abstracts.BrandDao;
 import rent.a.car.entities.concretes.Brand;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class BrandDaoInMemory implements BrandDao {
     List<Brand> brands;
 
