@@ -10,7 +10,6 @@ import java.util.List;
 @Repository
 public class BrandDaoInMemory implements BrandDao {
     List<Brand> brands;
-
     public BrandDaoInMemory() {
         brands = new ArrayList<Brand>();
         brands.add(new Brand(0,"bmw"));
